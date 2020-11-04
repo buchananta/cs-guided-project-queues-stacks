@@ -38,12 +38,13 @@ class Stack:
 class MaxStack:
     def __init__(self):
         # Your code here
-
+        self.items = []
+        self.Max = float('inf') * - 1
 
     def push(self, item):
         """Add a new item onto the top of our stack."""
         # Your code here
-
+        
 
     def pop(self):
         """Remove and return the top item from our stack."""
